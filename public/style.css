@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: rgba(47, 54, 65, 0);
+    background-size: cover;
+    background-position: center;
+    transition: background 1s ease-in-out;
+}
+
+.weather-container {
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.search {
+    margin-bottom: 20px;
+}
+
+.searchbar {
+    padding: 10px;
+    width: 200px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.weather {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+h2, p {
+    margin: 10px 0;
+}
+
+.rain-effect {
+    background-image: url('images/rainy.gif');
+}
+
+.snow-effect {
+    background-image: url('images/snow.gif');
+}
+
+.night-effect {
+    background-image: url('images/night.jpg');
+}
+
+.morning-effect {
+    background-image: url('images/morning.jpg');
+}
+
+.evening-effect {
+    background-image: url('images/evening.jpg');
+}
